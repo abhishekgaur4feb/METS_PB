@@ -30,7 +30,7 @@ public class Options_Select_User_step {
 	static final Logger logger = Logger.getLogger(Options_Select_User_step.class);
 	public WebDriver driver;
 
-	@Given("^Open browser for Options in Mats Application and click Select User$")
+	@Given("^Open browser for Options in MET Application and click Select User$")
 	public void Open_firefox_and_start_application() throws Throwable {
 		driver = Hooks.driver;
 		BasicConfigurator.configure();
@@ -38,7 +38,7 @@ public class Options_Select_User_step {
 				
 		}
 	
-	@When("^Select User is selected and User Enters \"(.*?)\" and \"(.*?)\" for Options in Mats Application$")
+	@When("^Select User is selected and User Enters \"(.*?)\" and \"(.*?)\" for Options in MET Application$")
 	public void user_enters_and(String barcode,String Username) throws InterruptedException {
 		BasicConfigurator.configure();
 		

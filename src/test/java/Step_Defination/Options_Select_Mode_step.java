@@ -32,7 +32,7 @@ public class Options_Select_Mode_step {
 	static final Logger logger = Logger.getLogger(Options_Select_Mode_step.class);
 	public WebDriver driver;
 
-	@Given("^Open browser for Options in Mats Application and click Select Mode$")
+	@Given("^Open browser for Options in MET Application and click Select Mode$")
 	public void Open_firefox_and_start_application() throws Throwable {
 		driver = Hooks.driver;
 		BasicConfigurator.configure();
@@ -40,7 +40,7 @@ public class Options_Select_Mode_step {
 				
 		}
 	
-	@When("^Mode is selected and User Enters \"(.*?)\" for Options in Mats Application$")
+	@When("^Mode is selected and User Enters \"(.*?)\" for Options in MET Application$")
 	public void user_enters_and(String Scan_Barcode) throws InterruptedException {
 		BasicConfigurator.configure();
 		

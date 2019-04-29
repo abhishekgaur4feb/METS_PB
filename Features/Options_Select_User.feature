@@ -1,8 +1,8 @@
-Feature: Options Select User for Mats Application 
+Feature: Options Select User for MET Application 
 
-Scenario Outline: Options Select User in Mats Application 
-	Given Open browser for Options in Mats Application and click Select User
-	When Select User is selected and User Enters "<barcode>" and "<Username>" for Options in Mats Application
+Scenario Outline: Options Select User in MET Application 
+	Given Open browser for Options in MET Application and click Select User
+	When Select User is selected and User Enters "<barcode>" and "<Username>" for Options in MET Application
 	Then Message displayed User clicked on select successfully
 
 	Examples: 

@@ -7205,3 +7205,33 @@
 2019-04-29 13:42:05,995 - Step_Defination.Options_Select_Mailing_Date_step -INFO - Fetching URL and Opening the Url
 2019-04-29 13:42:09,105 - Step_Defination.Options_Select_Mailing_Date_step -INFO - Submitted Barcode Successfully
 2019-04-29 13:42:11,931 - Step_Defination.Options_Select_Mode_step -INFO - Fetching URL and Opening the Url
+2019-04-29 19:49:36,085 - Step_Defination.Options_Select_Location_step -INFO - Fetching URL and Opening the Url
+2019-04-29 19:49:46,260 - Step_Defination.Options_Select_Location_step -INFO - Submitted Barcode Successfully
+2019-04-29 19:49:49,228 - Step_Defination.Options_Select_Mailing_Date_step -INFO - Fetching URL and Opening the Url
+2019-04-29 19:49:52,280 - Step_Defination.Options_Select_Mailing_Date_step -INFO - Submitted Barcode Successfully
+2019-04-29 19:49:57,642 - Step_Defination.Options_Select_Mode_step -INFO - Fetching URL and Opening the Url
+2019-04-29 19:50:04,640 - Step_Defination.Options_Select_Mode_step -INFO - Submitted Barcode Successfully
+2019-04-29 19:50:08,235 - Step_Defination.Options_Select_User_step -INFO - Fetching URL and Opening the Url
+2019-04-29 19:50:18,289 - Step_Defination.Options_Select_User_step -INFO - Submitted Barcode Successfully
+2019-04-29 19:56:38,603 - Step_Defination.Barcode_Scan_step -INFO - Fetching URL and Opening the Url
+2019-04-29 19:56:47,343 - Step_Defination.Barcode_Scan_step -INFO - Submitted Barcode Successfully
+2019-04-29 19:57:11,884 - Step_Defination.Barcode_Scan_step -INFO - Fetching URL and Opening the Url
+2019-04-29 19:57:20,513 - Step_Defination.Barcode_Scan_step -INFO - Submitted Barcode Successfully
+2019-04-29 19:57:23,462 - Step_Defination.Options_Select_Location_step -INFO - Fetching URL and Opening the Url
+2019-04-29 19:57:33,535 - Step_Defination.Options_Select_Location_step -INFO - Submitted Barcode Successfully
+2019-04-29 19:57:37,374 - Step_Defination.Options_Select_Mailing_Date_step -INFO - Fetching URL and Opening the Url
+2019-04-29 19:57:40,586 - Step_Defination.Options_Select_Mailing_Date_step -INFO - Submitted Barcode Successfully
+2019-04-29 19:57:45,858 - Step_Defination.Options_Select_Mode_step -INFO - Fetching URL and Opening the Url
+2019-04-29 19:57:52,863 - Step_Defination.Options_Select_Mode_step -INFO - Submitted Barcode Successfully
+2019-04-29 19:57:55,861 - Step_Defination.Options_Select_User_step -INFO - Fetching URL and Opening the Url
+2019-04-29 19:58:05,829 - Step_Defination.Options_Select_User_step -INFO - Submitted Barcode Successfully
+2019-04-29 20:00:28,336 - Step_Defination.Barcode_Scan_step -INFO - Fetching URL and Opening the Url
+2019-04-29 20:00:36,992 - Step_Defination.Barcode_Scan_step -INFO - Submitted Barcode Successfully
+2019-04-29 20:00:39,982 - Step_Defination.Options_Select_Location_step -INFO - Fetching URL and Opening the Url
+2019-04-29 20:00:50,004 - Step_Defination.Options_Select_Location_step -INFO - Submitted Barcode Successfully
+2019-04-29 20:00:53,573 - Step_Defination.Options_Select_Mailing_Date_step -INFO - Fetching URL and Opening the Url
+2019-04-29 20:00:56,688 - Step_Defination.Options_Select_Mailing_Date_step -INFO - Submitted Barcode Successfully
+2019-04-29 20:00:59,599 - Step_Defination.Options_Select_Mode_step -INFO - Fetching URL and Opening the Url
+2019-04-29 20:01:06,442 - Step_Defination.Options_Select_Mode_step -INFO - Submitted Barcode Successfully
+2019-04-29 20:01:09,283 - Step_Defination.Options_Select_User_step -INFO - Fetching URL and Opening the Url
+2019-04-29 20:01:19,420 - Step_Defination.Options_Select_User_step -INFO - Submitted Barcode Successfully

@@ -29,7 +29,7 @@ public class Options_Select_Location_step {
 	static final Logger logger = Logger.getLogger(Options_Select_Location_step.class);
 	public WebDriver driver;
 
-	@Given("^Open browser for Options in Mats Application and click Select Location$")
+	@Given("^Open browser for Options in MET Application and click Select Location$")
 	public void Open_firefox_and_start_application() throws Throwable {
 		driver = Hooks.driver;
 		BasicConfigurator.configure();
@@ -37,7 +37,7 @@ public class Options_Select_Location_step {
 				
 		}
 	
-	@When("^location is selected and User Enters \"(.*?)\" and \"(.*?)\" for Options in Mats Application$")
+	@When("^location is selected and User Enters \"(.*?)\" and \"(.*?)\" for Options in MET Application$")
 	public void user_enters_and(String location_barcode,String location_name) throws InterruptedException {
 		BasicConfigurator.configure();
 		

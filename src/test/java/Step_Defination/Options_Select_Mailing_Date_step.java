@@ -32,7 +32,7 @@ public class Options_Select_Mailing_Date_step {
 	static final Logger logger = Logger.getLogger(Options_Select_Mailing_Date_step.class);
 	public WebDriver driver;
 
-	@Given("^Open browser for Options in Mats Application and click Select Mailing Date$")
+	@Given("^Open browser for Options in MET Application and click Select Mailing Date$")
 	public void Open_firefox_and_start_application() throws Throwable {
 		driver = Hooks.driver;
 		BasicConfigurator.configure();
@@ -40,7 +40,7 @@ public class Options_Select_Mailing_Date_step {
 				
 		}
 	
-	@When("^Mailing Date is selected and User Enters \"(.*?)\" for Options in Mats Application$")
+	@When("^Mailing Date is selected and User Enters \"(.*?)\" for Options in MET Application$")
 	public void user_enters_and(String Mailing_Date) throws InterruptedException {
 		BasicConfigurator.configure();
 		

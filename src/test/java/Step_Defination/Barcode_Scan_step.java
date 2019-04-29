@@ -29,7 +29,7 @@ public class Barcode_Scan_step {
 	static final Logger logger = Logger.getLogger(Barcode_Scan_step.class);
 	public WebDriver driver;
 
-	@Given("^Open browser for Mats Application$")
+	@Given("^Open browser for MET Application$")
 	public void Open_firefox_and_start_application() throws Throwable {
 		driver = Hooks.driver;
 		BasicConfigurator.configure();
@@ -37,7 +37,7 @@ public class Barcode_Scan_step {
 				
 		}
 	
-	@When("^NewUser enters \"(.*?)\" for Mats Application$")
+	@When("^NewUser enters \"(.*?)\" for MET Application$")
 	public void user_enters_and(String barcode) throws InterruptedException {
 		BasicConfigurator.configure();
 		
@@ -63,7 +63,7 @@ public class Barcode_Scan_step {
 	    
 	}
 
-	@Then("^Message displayed Barcode Successful Submitted for Mats Application$")
+	@Then("^Message displayed Barcode Successful Submitted for MET Application$")
 	public void message_displayed_Login_Successful(){
 		logger.info("Submitted Barcode Successfully");
 

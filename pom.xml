@@ -134,7 +134,7 @@
    			 <goal>generate</goal>
    			 </goals>
    			 <configuration>
-   			 <projectName>Mats_Application</projectName>
+   			 <projectName>Mail_Event_Tracking_Application</projectName>
    			 <outputDirectory>${project.build.directory}/cucumber-report-html</outputDirectory>
    			 <cucumberOutput>${project.build.directory}/cucumber.json</cucumberOutput>
    			 </configuration>

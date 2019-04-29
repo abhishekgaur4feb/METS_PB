@@ -1,9 +1,9 @@
-Feature: Mats Application 
+Feature: MET Application 
 
-Scenario Outline: Mats Application Barcode Scan 
-	Given Open browser for Mats Application 
-	When NewUser enters "<barcode>" for Mats Application
-	Then Message displayed Barcode Successful Submitted for Mats Application
+Scenario Outline: MET Application Barcode Scan 
+	Given Open browser for MET Application 
+	When NewUser enters "<barcode>" for MET Application
+	Then Message displayed Barcode Successful Submitted for MET Application
 
 	Examples: 
 		| barcode       		 |

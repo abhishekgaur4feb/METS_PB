@@ -1,8 +1,8 @@
-Feature: Options Select Mode for Mats Application 
+Feature: Options Select Mode for MET Application 
 
-Scenario Outline: Options Select Mode in Mats Application 
-	Given Open browser for Options in Mats Application and click Select Mode
-	When Mode is selected and User Enters "<Scan_Barcode>" for Options in Mats Application
+Scenario Outline: Options Select Mode in MET Application 
+	Given Open browser for Options in MET Application and click Select Mode
+	When Mode is selected and User Enters "<Scan_Barcode>" for Options in MET Application
 	Then Message displayed User clicked on select successfully for Mode Option
 
 	Examples: 
