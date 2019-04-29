@@ -30,7 +30,7 @@ pipeline {
             }
             
   finally {
-    mail to: 'bcl@nclasters.org',
+    mail to: 'abhishekgaur054@gmail.com',
       subject: "Status of pipeline: ${currentBuild.fullDisplayName}",
       body: "${env.BUILD_URL} has result ${currentBuild.result}"
   }
