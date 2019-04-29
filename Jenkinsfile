@@ -29,15 +29,12 @@ pipeline {
                 }
             }
             
-            stage('Email')
-        {
-            env.ForEmailPlugin = env.WORKSPACE      
-            emailext attachmentsPattern: '**/overview-features.html',      
-            body: '''${SCRIPT, template="groovy_html.template"}''', 
-            subject: currentBuild.currentResult + " : " + env.JOB_NAME, 
-            to: 'abhishekgaur054@gmail.com'
-        }
-            
+          emailext (
+      to: 'abhishekgaur054@gmail.com',
+      subject: Html Reports for test case run,
+      body: details,
+      recipientProviders: [[$class: 'DevelopersRecipientProvider']]
+    )
             
             
         }
