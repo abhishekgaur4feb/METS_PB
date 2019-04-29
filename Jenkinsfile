@@ -27,13 +27,14 @@ pipeline {
                fileIncludePattern: "**/cucumber.json",
                jsonReportDirectory: 'target'
                 }
-            }
-            
-  finally {
+                 finally {
     mail to: 'abhishekgaur054@gmail.com',
       subject: "Status of pipeline: ${currentBuild.fullDisplayName}",
       body: "${env.BUILD_URL} has result ${currentBuild.result}"
   }
+            }
+            
+ 
             
             
         }
