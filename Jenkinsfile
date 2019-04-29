@@ -31,7 +31,7 @@ pipeline {
             
           emailext (
       to: 'abhishekgaur054@gmail.com',
-      subject: Html Reports for test case run,
+      subject: subject,
       body: details,
       recipientProviders: [[$class: 'DevelopersRecipientProvider']]
     )
