@@ -34,7 +34,6 @@ pipeline {
 		  post {
 		always {
 		  
-		  println env.WORKSPACE
 		  
 		  emailext{
        	  mail to: 'abhishekgaur054@gmail.com',
