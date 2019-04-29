@@ -8,7 +8,7 @@ pipeline {
         stage ('Compile Stage') {
 
             steps {
-                  bat 'mvn clean compile'
+                  bat 'mvn clean'
                
             }
         }
@@ -16,17 +16,10 @@ pipeline {
         stage ('Testing Stage') {
 
             steps {
-                  bat 'mvn test'
+                  bat 'mvn install'
                   }
         }
 
-
-        stage ('Deployment Stage') {
-            steps {
-                 bat 'mvn deploy'
-                  }
-        }
-		
 		    stage ('Cucumber Reports') {
 
             steps {
