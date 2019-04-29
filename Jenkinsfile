@@ -1,32 +1,30 @@
 pipeline {
     agent any
 
+ tools { 
+        maven 'Maven 3.3.9' 
+       }
     stages {
         stage ('Compile Stage') {
 
             steps {
-                withMaven(maven : 'maven_3.3.9') {
-                    bat 'mvn clean compile'
-                }
+                  bat 'mvn clean compile'
+               
             }
         }
 
         stage ('Testing Stage') {
 
             steps {
-                withMaven(maven : 'maven_3.3.9') {
-                    bat 'mvn test'
-                }
-            }
+                  bat 'mvn test'
+                  }
         }
 
 
         stage ('Deployment Stage') {
             steps {
-                withMaven(maven : 'maven_3.3.9') {
-                    bat 'mvn deploy'
-                }
-            }
+                 bat 'mvn deploy'
+                  }
         }
 		
 		    stage ('Cucumber Reports') {
@@ -38,8 +36,5 @@ pipeline {
                 }
             }
         }
-		
-		
-		
 		
     }
