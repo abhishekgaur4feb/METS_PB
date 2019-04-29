@@ -13,7 +13,7 @@ pipeline {
 
         stage ('Testing Stage') {
 
-            steps {
+            steps{
                 withMaven(maven : 'maven_3_3_9') {
                     sh 'mvn install'
                 }
