@@ -5,8 +5,8 @@ pipeline {
         stage ('Compile Stage') {
 
             steps {
-                withMaven(maven : 'maven_3_3_9') {
-                    sh 'mvn clean compile'
+                withMaven(maven : 'maven_3.3.9') {
+                    bat 'mvn clean compile'
                 }
             }
         }
@@ -14,8 +14,8 @@ pipeline {
         stage ('Testing Stage') {
 
             steps {
-                withMaven(maven : 'maven_3_3_9') {
-                    sh 'mvn test'
+                withMaven(maven : 'maven_3.3.9') {
+                    bat 'mvn test'
                 }
             }
         }
@@ -23,8 +23,8 @@ pipeline {
 
         stage ('Deployment Stage') {
             steps {
-                withMaven(maven : 'maven_3_3_9') {
-                    sh 'mvn deploy'
+                withMaven(maven : 'maven_3.3.9') {
+                    bat 'mvn deploy'
                 }
             }
         }
