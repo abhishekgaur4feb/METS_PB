@@ -33,11 +33,10 @@ pipeline {
         }
 		  post {
 		always {
-       	 attachmentsPattern: '**/overview-features.html',
-       	 body: '${env.BUILD_URL} has result ${currentBuild.result}', 
-       	 compressLog: true, 
-       	 subject: 'Status of pipeline: ${currentBuild.fullDisplayName}',
-       	 to: 'abhishekgaur054@gmail.com'
+       	  mail to: 'abhishekgaur054@gmail.com',
+          subject: "Status of pipeline: ${currentBuild.fullDisplayName}",
+          body: "${env.BUILD_URL} has result ${currentBuild.result}"
+          attachmentsPattern: '**/overview-features.html'
     }
   }
 		
