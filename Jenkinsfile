@@ -33,10 +33,11 @@ pipeline {
         }
 		  post {
 		always {
+		emailext{
        	  mail to: 'abhishekgaur054@gmail.com',
           subject: "Status of pipeline: ${currentBuild.fullDisplayName}",
           body: "${env.BUILD_URL} has result ${currentBuild.result}"
-          emailext mimeType attachmentsPattern: '**/overview-features.html'
+           attachmentsPattern: '**/overview-features.html'
               }
   }
 		
