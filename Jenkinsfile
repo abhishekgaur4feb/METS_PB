@@ -29,12 +29,11 @@ pipeline {
                 }
             }
             
-          emailext (
-      to: 'abhishekgaur054@gmail.com',
-      subject: subject,
-      body: details,
-      recipientProviders: [[$class: 'DevelopersRecipientProvider']]
-    )
+  finally {
+    mail to: 'bcl@nclasters.org',
+      subject: "Status of pipeline: ${currentBuild.fullDisplayName}",
+      body: "${env.BUILD_URL} has result ${currentBuild.result}"
+  }
             
             
         }
