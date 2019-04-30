@@ -34,7 +34,8 @@ pipeline {
         
             post {
         always {
-            echo 'One way or another, I have finished'
+            echo 'One way or another, I have finished',
+            emailext attachmentsPattern: '**/target/overview-features.html'
             
         }
         success {
