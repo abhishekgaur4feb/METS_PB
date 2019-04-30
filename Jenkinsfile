@@ -34,12 +34,11 @@ pipeline {
         
             post {
         always {
-            echo 'One way or another, I have finished',
-            emailext attachmentsPattern: '**/target/overview-features.html'
-            
+            echo 'One way or another, I have finished'                       
         }
         success {
-          mail to: 'abhishekgaur054@gmail.com',
+          emailext attachmentsPattern: '**/target/overview-features.html', body: '''${SCRIPT, template="groovy-html.template"}''',
+          mimeType: 'text/html',to: "abhishekgaur054@gmail.com", 
           subject: "Success Pipeline: ${currentBuild.fullDisplayName}",
           body: "Build Successfully Deployed ${env.BUILD_URL}"
                          
