@@ -38,8 +38,8 @@ pipeline {
         }
         success {
           emailext attachmentsPattern: "**/overview-features.html", 
-          body: '''${SCRIPT, template="groovy-html.template"}''',
-          mimeType: 'text/html',to: "abhishekgaur054@gmail.com", 
+          body: ${FILE,path="**/overview-features.html"}
+          mimeType: 'text/html',to: "abhishek.gaur1@pb.com", 
           subject: "Success Pipeline: ${currentBuild.fullDisplayName}"
           
                          
