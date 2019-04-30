@@ -38,7 +38,10 @@ pipeline {
        	  mail to: 'abhishekgaur054@gmail.com',
           subject: "Status of pipeline: ${currentBuild.fullDisplayName}",
           body: "${env.BUILD_URL} has result ${currentBuild.result}",
-          emailext attachmentsPattern: '**target/cucumber.json'
+          emailext 
+          {
+          attachmentsPattern: '**target/cucumber.json'
+          }
          } 
         
   
