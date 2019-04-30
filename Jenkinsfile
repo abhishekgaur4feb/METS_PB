@@ -38,7 +38,7 @@ pipeline {
         }
         success {
           emailext attachmentsPattern: "**/overview-features.html", 
-          body: ${FILE,path="**/overview-features.html"}
+          body: '''${FILE,path="**/overview-features.html"}''',
           mimeType: 'text/html',to: "abhishekgaur054@gmail.com", 
           subject: "Success Pipeline: ${currentBuild.fullDisplayName}"
           
