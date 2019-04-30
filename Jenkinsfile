@@ -35,6 +35,7 @@ pipeline {
             post {
         always {
             echo 'One way or another, I have finished'
+            emailext attachmentsPattern: '**/target/cucumber.json'
             
         }
         success {
@@ -42,7 +43,7 @@ pipeline {
           subject: "Success Pipeline: ${currentBuild.fullDisplayName}",
           body: "Build Successfully Deployed ${env.BUILD_URL}"
           }
-          emailext attachmentsPattern: '**/target/cucumber.json'                
+                          
           
         }
         failure {
