@@ -32,24 +32,25 @@ pipeline {
                     
         }
         
-         post {
-		failure {
-		   
-		   
-       	  mail to: 'abhishekgaur054@gmail.com',
+            post {
+        always {
+            echo 'One way or another, I have finished'
+            
+        }
+        success {
+          mail to: 'abhishekgaur054@gmail.com',
+          subject: "Success Pipeline: ${currentBuild.fullDisplayName}",
+          body: "Build Successfully Deployed ${env.BUILD_URL}",                
+          attachmentsPattern: '**target/cucumber.json'
+        }
+        failure {
+          mail to: 'abhishekgaur054@gmail.com',
           subject: "Failed Pipeline: ${currentBuild.fullDisplayName}",
           body: "Something is wrong with ${env.BUILD_URL}",                
           attachmentsPattern: '**target/cucumber.json'
-          } 
-		success {
-		   
-		   
-       	  mail to: 'abhishekgaur054@gmail.com',
-          subject: "Success Pipeline: ${currentBuild.fullDisplayName}",
-          body: "Build Successfully Deployed ${env.BUILD_URL}",                
-          
-          } 
         }
+        
+    }
   
 		
     }
