@@ -39,7 +39,7 @@ pipeline {
         success {
           emailext attachmentsPattern: '**/target/overview-features.html', 
           body: '''${SCRIPT, template="groovy-html.template"}''',
-          mimeType: 'text/html',to: "abhishekgaur054@gmail.com", 
+          mimeType: 'text/html',to: "abhishek.gaur1@pb.com", 
           subject: "Success Pipeline: ${currentBuild.fullDisplayName}"
           
                          
