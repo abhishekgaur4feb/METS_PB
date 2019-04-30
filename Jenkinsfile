@@ -34,13 +34,7 @@ pipeline {
 		  post {
 		always {
 		   
-		  emailext{ 
-		  attachmentsPattern: '\\target\\cucumber-report-html\\cucumber-html-reports\\overview-features.html',
-       	  mail to: 'abhishekgaur054@gmail.com',
-          subject: "Status of pipeline: ${currentBuild.fullDisplayName}",
-          body: "${env.BUILD_URL} has result ${currentBuild.result}"
-          
-        }
+		  emailext attachmentsPattern: '**/overview-features.html', body: 'Find attachments', subject: 'test', to: 'abhishekgaur054@gmail.com'
   }
 		
     }
