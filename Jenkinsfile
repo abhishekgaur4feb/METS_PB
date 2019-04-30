@@ -34,7 +34,12 @@ pipeline {
 		  post {
 		always {
 		   
-		  emailext attachmentsPattern: '**/overview-features.html', body: 'Find attachments', subject: 'test', to: 'abhishekgaur054@gmail.com'
+		   
+       	  mail to: 'abhishekgaur054@gmail.com',
+          subject: "Status of pipeline: ${currentBuild.fullDisplayName}",
+          body: "${env.BUILD_URL} has result ${currentBuild.result}",
+          attachmentsPattern: '**//overview-features.html'
+        
   }
 		
     }
