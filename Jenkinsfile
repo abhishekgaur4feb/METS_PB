@@ -41,8 +41,7 @@ pipeline {
           mail to: 'abhishekgaur054@gmail.com',
           subject: "Success Pipeline: ${currentBuild.fullDisplayName}",
           body: "Build Successfully Deployed ${env.BUILD_URL}",
-          emailext attachLog: true, 
-          attachmentsPattern: '**/target/cucumber.json'                
+          emailext attachmentsPattern: '**/target/cucumber.json'                
           
         }
         failure {
