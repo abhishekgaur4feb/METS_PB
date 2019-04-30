@@ -31,13 +31,25 @@ pipeline {
             }
                     
         }
-		  post {
-		always {
+        
+         post {
+		failure {
 		   
 		   
        	  mail to: 'abhishekgaur054@gmail.com',
-          subject: "Status of pipeline: ${currentBuild.fullDisplayName}",
-          body: "${env.BUILD_URL} has result ${currentBuild.result}",                 
+          subject: "Failed Pipeline: ${currentBuild.fullDisplayName}",
+          body: "Something is wrong with ${env.BUILD_URL}",                
+          attachmentsPattern: '**target/cucumber.json'
+          } 
+       }
+
+		  post {
+		success {
+		   
+		   
+       	  mail to: 'abhishekgaur054@gmail.com',
+          subject: "Success Pipeline: ${currentBuild.fullDisplayName}",
+          body: "Build Successfully Deployed ${env.BUILD_URL}",                
           attachmentsPattern: '**target/cucumber.json'
           } 
         
