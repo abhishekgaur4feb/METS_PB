@@ -9,6 +9,7 @@ Scenario Outline: Options Select Mailing Date in MET Application
 		|Mailing_Date   		 |browser|
 		| 12  					 |Chrome |
 		| 12  					 |Firefox |
+		| 12  					 |IE |
 		
 		
 

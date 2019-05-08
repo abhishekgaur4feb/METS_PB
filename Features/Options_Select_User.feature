@@ -9,6 +9,7 @@ Scenario Outline: Options Select User in MET Application
 		| barcode        		 |Username|browser|
 		| 88M0001163143161685XX  |Anurag  |Chrome |
 		| 88M0001163143161685XX  |Abhishek  |Firefox |
+		| 88M0001163143161685XX  |Abhishek  |IE |
 		
 
 		

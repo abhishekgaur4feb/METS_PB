@@ -9,6 +9,7 @@ Scenario Outline: MET Application Barcode Scan
 		| barcode       		 |browser|
 		| 99M0001163143161685XX  |Chrome |
 		| 99M0001163143161685XX  |Firefox |
+		| 99M0001163143161685XX  |IE |
 		
 		
 		

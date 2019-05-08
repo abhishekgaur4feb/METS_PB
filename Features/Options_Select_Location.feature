@@ -9,6 +9,7 @@ Scenario Outline: Options Select Location in MET Application
 		| location_barcode       |location_name  |browser|
 		| 99M0001163143161685XX  |India,New Delhi|Chrome|
 		| 99M0001163143161685XX  |India,New Delhi|Firefox|
+		| 99M0001163143161685XX  |India,New Delhi|IE|
 		
 		
 

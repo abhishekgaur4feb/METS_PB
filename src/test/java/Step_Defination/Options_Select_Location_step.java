@@ -62,16 +62,19 @@ public class Options_Select_Location_step {
              break;
             case "IE":
             	System.setProperty("webdriver.ie.driver", "driver//IEDriverServer.exe");
-        		driver = new InternetExplorerDriver();
+            	DesiredCapabilities capabilities = DesiredCapabilities.internetExplorer();
+            	capabilities.setCapability(InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS, true);
+            	capabilities.setCapability("requireWindowFocus", true);
+        		driver = new InternetExplorerDriver(capabilities);
         		driver.get(url);
     			driver.manage().window().maximize();  
             break;
             case "Firefox":
     			System.setProperty("webdriver.gecko.driver", "driver//geckodriver.exe");
     			
-    			DesiredCapabilities capabilities = DesiredCapabilities.firefox();
-    			capabilities.setCapability("marionette",true);
-    			driver= new FirefoxDriver(capabilities);
+    			DesiredCapabilities capabilities1 = DesiredCapabilities.firefox();
+    			capabilities1.setCapability("marionette",true);
+    			driver= new FirefoxDriver(capabilities1);
     			//driver.manage().deleteAllCookies();
     			driver.get(url);
     			driver.manage().window().maximize();    			

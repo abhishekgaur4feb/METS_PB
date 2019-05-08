@@ -9,6 +9,7 @@ Scenario Outline: Options Select Mode in MET Application
 		| Scan_Barcode           |browser|
 		| Validate                |Chrome|
 		| Validate                |Firefox|
+		| Validate                |IE|
 		
 		
 
