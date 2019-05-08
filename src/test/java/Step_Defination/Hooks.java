@@ -5,16 +5,13 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.util.Properties;
-
-//import org.apache.commons.io.FileUtils;
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.remote.CapabilityType;
-import org.openqa.selenium.remote.DesiredCapabilities;
 
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
@@ -75,7 +72,7 @@ public class Hooks{
 	 */
 	public void embedScreenshot(Scenario scenario) throws IOException {
 
-		/*if(scenario.isFailed()) {
+		if(scenario.isFailed()) {
 			try {
 				scenario.write("Current Page URL is " + driver.getCurrentUrl());
 				//            byte[] screenshot = getScreenshotAs(OutputType.BYTES);
@@ -87,7 +84,7 @@ public class Hooks{
 				System.err.println(somePlatformsDontSupportScreenshots.getMessage());
 			}
 
-		}*/
+		}
 		//driver.quit();
 
 	}
