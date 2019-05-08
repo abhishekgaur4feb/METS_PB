@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.net.MalformedURLException;
 import java.util.Properties;
 
-import org.apache.commons.io.FileUtils;
+//import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -22,7 +22,7 @@ import cucumber.api.java.Before;
 
 public class Hooks{
 	public static WebDriver driver;
-	public Properties prop;
+	//public Properties prop;
 	//Changes in hooks
 
 	@Before
@@ -31,7 +31,7 @@ public class Hooks{
 	 * shared state between tests
 	 */
 	public void openBrowser() throws IOException {
-		prop=new Properties();
+		/*prop=new Properties();
 		FileInputStream fis=new FileInputStream("src//main//resources//Browser.properties");
 		prop.load(fis);
 		
@@ -65,7 +65,7 @@ public class Hooks{
 			driver.get(prop.getProperty("url"));
 			driver.manage().window().maximize();
 			driver.get(prop.getProperty("url"));
-			}
+			}*/
 	}
 
 
@@ -75,7 +75,7 @@ public class Hooks{
 	 */
 	public void embedScreenshot(Scenario scenario) throws IOException {
 
-		if(scenario.isFailed()) {
+		/*if(scenario.isFailed()) {
 			try {
 				scenario.write("Current Page URL is " + driver.getCurrentUrl());
 				//            byte[] screenshot = getScreenshotAs(OutputType.BYTES);
@@ -87,7 +87,7 @@ public class Hooks{
 				System.err.println(somePlatformsDontSupportScreenshots.getMessage());
 			}
 
-		}
+		}*/
 		//driver.quit();
 
 	}

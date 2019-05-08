@@ -7242,3 +7242,270 @@
 2019-04-29 20:01:06,442 [main] INFO Step_Defination.Options_Select_Mode_step - Submitted Barcode Successfully
 2019-04-29 20:01:09,283 [main] INFO Step_Defination.Options_Select_User_step - Fetching URL and Opening the Url
 2019-04-29 20:01:19,420 [main] INFO Step_Defination.Options_Select_User_step - Submitted Barcode Successfully
+2019-05-06 18:40:17,505 [main] INFO Step_Defination.Barcode_Scan_step - Fetching URL and Opening the Url
+2019-05-06 18:40:25,983 [main] INFO Step_Defination.Barcode_Scan_step - Submitted Barcode Successfully
+2019-05-06 18:40:28,806 [main] INFO Step_Defination.Options_Select_Location_step - Fetching URL and Opening the Url
+2019-05-06 18:40:38,774 [main] INFO Step_Defination.Options_Select_Location_step - Submitted Barcode Successfully
+2019-05-06 18:40:42,192 [main] INFO Step_Defination.Options_Select_Mailing_Date_step - Fetching URL and Opening the Url
+2019-05-06 18:40:45,239 [main] INFO Step_Defination.Options_Select_Mailing_Date_step - Submitted Barcode Successfully
+2019-05-06 18:40:50,760 [main] INFO Step_Defination.Options_Select_Mode_step - Fetching URL and Opening the Url
+2019-05-06 18:40:57,590 [main] INFO Step_Defination.Options_Select_Mode_step - Submitted Barcode Successfully
+2019-05-06 18:41:00,520 [main] INFO Step_Defination.Options_Select_User_step - Fetching URL and Opening the Url
+2019-05-06 18:41:10,444 [main] INFO Step_Defination.Options_Select_User_step - Submitted Barcode Successfully
+2019-05-06 18:44:27,642 [main] INFO Step_Defination.Barcode_Scan_step - Fetching URL and Opening the Url
+2019-05-06 18:44:36,142 [main] INFO Step_Defination.Barcode_Scan_step - Submitted Barcode Successfully
+2019-05-06 18:44:39,162 [main] INFO Step_Defination.Options_Select_Location_step - Fetching URL and Opening the Url
+2019-05-06 18:44:49,055 [main] INFO Step_Defination.Options_Select_Location_step - Submitted Barcode Successfully
+2019-05-06 18:44:51,995 [main] INFO Step_Defination.Options_Select_Mailing_Date_step - Fetching URL and Opening the Url
+2019-05-06 18:44:54,986 [main] INFO Step_Defination.Options_Select_Mailing_Date_step - Submitted Barcode Successfully
+2019-05-06 18:44:57,671 [main] INFO Step_Defination.Options_Select_Mode_step - Fetching URL and Opening the Url
+2019-05-06 18:45:04,458 [main] INFO Step_Defination.Options_Select_Mode_step - Submitted Barcode Successfully
+2019-05-06 18:45:07,464 [main] INFO Step_Defination.Options_Select_User_step - Fetching URL and Opening the Url
+2019-05-06 18:45:17,296 [main] INFO Step_Defination.Options_Select_User_step - Submitted Barcode Successfully
+2019-05-06 23:19:29,680 [main] INFO Step_Defination.Barcode_Scan_step - Fetching URL and Opening the Url
+2019-05-06 23:19:38,872 [main] INFO Step_Defination.Barcode_Scan_step - Submitted Barcode Successfully
+2019-05-06 23:19:44,069 [main] INFO Step_Defination.Options_Select_Location_step - Fetching URL and Opening the Url
+2019-05-06 23:19:54,763 [main] INFO Step_Defination.Options_Select_Location_step - Submitted Barcode Successfully
+2019-05-06 23:20:00,082 [main] INFO Step_Defination.Options_Select_Mailing_Date_step - Fetching URL and Opening the Url
+2019-05-06 23:20:04,310 [main] INFO Step_Defination.Options_Select_Mailing_Date_step - Submitted Barcode Successfully
+2019-05-06 23:20:10,320 [main] INFO Step_Defination.Options_Select_Mode_step - Fetching URL and Opening the Url
+2019-05-06 23:20:18,281 [main] INFO Step_Defination.Options_Select_Mode_step - Submitted Barcode Successfully
+2019-05-06 23:20:24,771 [main] INFO Step_Defination.Options_Select_User_step - Fetching URL and Opening the Url
+2019-05-06 23:20:35,521 [main] INFO Step_Defination.Options_Select_User_step - Submitted Barcode Successfully
+2019-05-07 15:26:49,877 [main] INFO Step_Defination.Barcode_Scan_step - Fetching URL and Opening the Url
+2019-05-07 15:26:58,409 [main] INFO Step_Defination.Barcode_Scan_step - Submitted Barcode Successfully
+2019-05-07 15:27:01,217 [main] INFO Step_Defination.Options_Select_Location_step - Fetching URL and Opening the Url
+2019-05-07 15:27:11,151 [main] INFO Step_Defination.Options_Select_Location_step - Submitted Barcode Successfully
+2019-05-07 15:27:14,540 [main] INFO Step_Defination.Options_Select_Mailing_Date_step - Fetching URL and Opening the Url
+2019-05-07 15:27:17,576 [main] INFO Step_Defination.Options_Select_Mailing_Date_step - Submitted Barcode Successfully
+2019-05-07 15:27:20,334 [main] INFO Step_Defination.Options_Select_Mode_step - Fetching URL and Opening the Url
+2019-05-07 15:27:27,125 [main] INFO Step_Defination.Options_Select_Mode_step - Submitted Barcode Successfully
+2019-05-07 15:27:29,817 [main] INFO Step_Defination.Options_Select_User_step - Fetching URL and Opening the Url
+2019-05-07 15:27:39,711 [main] INFO Step_Defination.Options_Select_User_step - Submitted Barcode Successfully
+2019-05-07 15:28:57,536 [main] INFO Step_Defination.Barcode_Scan_step - Fetching URL and Opening the Url
+2019-05-07 15:29:06,050 [main] INFO Step_Defination.Barcode_Scan_step - Submitted Barcode Successfully
+2019-05-07 15:29:11,317 [main] INFO Step_Defination.Options_Select_Location_step - Fetching URL and Opening the Url
+2019-05-07 15:29:21,176 [main] INFO Step_Defination.Options_Select_Location_step - Submitted Barcode Successfully
+2019-05-07 15:29:24,591 [main] INFO Step_Defination.Options_Select_Mailing_Date_step - Fetching URL and Opening the Url
+2019-05-07 15:29:27,585 [main] INFO Step_Defination.Options_Select_Mailing_Date_step - Submitted Barcode Successfully
+2019-05-07 15:29:32,897 [main] INFO Step_Defination.Options_Select_Mode_step - Fetching URL and Opening the Url
+2019-05-07 15:29:39,665 [main] INFO Step_Defination.Options_Select_Mode_step - Submitted Barcode Successfully
+2019-05-07 15:29:42,323 [main] INFO Step_Defination.Options_Select_User_step - Fetching URL and Opening the Url
+2019-05-07 15:29:52,239 [main] INFO Step_Defination.Options_Select_User_step - Submitted Barcode Successfully
+2019-05-07 15:32:53,363 [main] INFO Step_Defination.Barcode_Scan_step - Fetching URL and Opening the Url
+2019-05-07 15:33:01,871 [main] INFO Step_Defination.Barcode_Scan_step - Submitted Barcode Successfully
+2019-05-07 15:33:07,190 [main] INFO Step_Defination.Options_Select_Location_step - Fetching URL and Opening the Url
+2019-05-07 15:33:17,069 [main] INFO Step_Defination.Options_Select_Location_step - Submitted Barcode Successfully
+2019-05-07 15:33:20,025 [main] INFO Step_Defination.Options_Select_Mailing_Date_step - Fetching URL and Opening the Url
+2019-05-07 15:33:23,005 [main] INFO Step_Defination.Options_Select_Mailing_Date_step - Submitted Barcode Successfully
+2019-05-07 15:33:25,706 [main] INFO Step_Defination.Options_Select_Mode_step - Fetching URL and Opening the Url
+2019-05-07 15:33:32,537 [main] INFO Step_Defination.Options_Select_Mode_step - Submitted Barcode Successfully
+2019-05-07 15:33:35,496 [main] INFO Step_Defination.Options_Select_User_step - Fetching URL and Opening the Url
+2019-05-07 15:33:45,363 [main] INFO Step_Defination.Options_Select_User_step - Submitted Barcode Successfully
+2019-05-07 15:34:48,593 [main] INFO Step_Defination.Barcode_Scan_step - Fetching URL and Opening the Url
+2019-05-07 15:34:57,173 [main] INFO Step_Defination.Barcode_Scan_step - Submitted Barcode Successfully
+2019-05-07 15:35:02,177 [main] INFO Step_Defination.Options_Select_Location_step - Fetching URL and Opening the Url
+2019-05-07 15:35:12,015 [main] INFO Step_Defination.Options_Select_Location_step - Submitted Barcode Successfully
+2019-05-07 15:35:15,601 [main] INFO Step_Defination.Options_Select_Mailing_Date_step - Fetching URL and Opening the Url
+2019-05-07 15:35:18,641 [main] INFO Step_Defination.Options_Select_Mailing_Date_step - Submitted Barcode Successfully
+2019-05-07 15:35:21,532 [main] INFO Step_Defination.Options_Select_Mode_step - Fetching URL and Opening the Url
+2019-05-07 15:35:28,316 [main] INFO Step_Defination.Options_Select_Mode_step - Submitted Barcode Successfully
+2019-05-07 15:35:30,963 [main] INFO Step_Defination.Options_Select_User_step - Fetching URL and Opening the Url
+2019-05-07 15:35:40,830 [main] INFO Step_Defination.Options_Select_User_step - Submitted Barcode Successfully
+2019-05-07 15:37:31,024 [main] INFO Step_Defination.Barcode_Scan_step - Fetching URL and Opening the Url
+2019-05-07 15:38:11,866 [main] INFO Step_Defination.Barcode_Scan_step - Fetching URL and Opening the Url
+2019-05-07 15:38:20,409 [main] INFO Step_Defination.Barcode_Scan_step - Submitted Barcode Successfully
+2019-05-07 15:38:23,217 [main] INFO Step_Defination.Options_Select_Location_step - Fetching URL and Opening the Url
+2019-05-07 15:38:33,140 [main] INFO Step_Defination.Options_Select_Location_step - Submitted Barcode Successfully
+2019-05-07 15:38:36,569 [main] INFO Step_Defination.Options_Select_Mailing_Date_step - Fetching URL and Opening the Url
+2019-05-07 15:38:39,559 [main] INFO Step_Defination.Options_Select_Mailing_Date_step - Submitted Barcode Successfully
+2019-05-07 15:38:42,407 [main] INFO Step_Defination.Options_Select_Mode_step - Fetching URL and Opening the Url
+2019-05-07 15:38:49,209 [main] INFO Step_Defination.Options_Select_Mode_step - Submitted Barcode Successfully
+2019-05-07 15:38:52,095 [main] INFO Step_Defination.Options_Select_User_step - Fetching URL and Opening the Url
+2019-05-07 15:39:01,934 [main] INFO Step_Defination.Options_Select_User_step - Submitted Barcode Successfully
+2019-05-07 15:39:04,875 [main] INFO Step_Defination.Options_Select_Location_step - Fetching URL and Opening the Url
+2019-05-07 15:39:14,819 [main] INFO Step_Defination.Options_Select_Location_step - Submitted Barcode Successfully
+2019-05-07 15:39:17,609 [main] INFO Step_Defination.Options_Select_Mailing_Date_step - Fetching URL and Opening the Url
+2019-05-07 15:39:20,645 [main] INFO Step_Defination.Options_Select_Mailing_Date_step - Submitted Barcode Successfully
+2019-05-07 15:39:23,479 [main] INFO Step_Defination.Options_Select_Mode_step - Fetching URL and Opening the Url
+2019-05-07 15:39:30,248 [main] INFO Step_Defination.Options_Select_Mode_step - Submitted Barcode Successfully
+2019-05-07 15:39:33,602 [main] INFO Step_Defination.Options_Select_User_step - Fetching URL and Opening the Url
+2019-05-07 15:39:43,491 [main] INFO Step_Defination.Options_Select_User_step - Submitted Barcode Successfully
+2019-05-07 16:05:01,504 [main] INFO Step_Defination.Barcode_Scan_step - Fetching URL and Opening the Url
+2019-05-07 16:05:10,052 [main] INFO Step_Defination.Barcode_Scan_step - Submitted Barcode Successfully
+2019-05-07 16:05:13,283 [main] INFO Step_Defination.Options_Select_Location_step - Fetching URL and Opening the Url
+2019-05-07 16:05:23,679 [main] INFO Step_Defination.Options_Select_Location_step - Submitted Barcode Successfully
+2019-05-07 16:05:27,082 [main] INFO Step_Defination.Options_Select_Mailing_Date_step - Fetching URL and Opening the Url
+2019-05-07 16:05:30,347 [main] INFO Step_Defination.Options_Select_Mailing_Date_step - Submitted Barcode Successfully
+2019-05-07 16:05:33,412 [main] INFO Step_Defination.Options_Select_Mode_step - Fetching URL and Opening the Url
+2019-05-07 16:05:40,415 [main] INFO Step_Defination.Options_Select_Mode_step - Submitted Barcode Successfully
+2019-05-07 16:05:43,584 [main] INFO Step_Defination.Options_Select_User_step - Fetching URL and Opening the Url
+2019-05-07 16:05:53,585 [main] INFO Step_Defination.Options_Select_User_step - Submitted Barcode Successfully
+2019-05-07 17:40:29,155 [main] INFO Step_Defination.Barcode_Scan_step - Fetching URL and Opening the Url
+2019-05-07 17:40:29,265 [main] INFO Step_Defination.Options_Select_Location_step - Fetching URL and Opening the Url
+2019-05-07 17:40:29,276 [main] INFO Step_Defination.Options_Select_Mailing_Date_step - Fetching URL and Opening the Url
+2019-05-07 17:40:29,287 [main] INFO Step_Defination.Options_Select_Mode_step - Fetching URL and Opening the Url
+2019-05-07 17:40:29,301 [main] INFO Step_Defination.Options_Select_User_step - Fetching URL and Opening the Url
+2019-05-07 17:40:29,395 [main] INFO Step_Defination.Barcode_Scan_step - Fetching URL and Opening the Url
+2019-05-07 17:40:29,405 [main] INFO Step_Defination.Options_Select_Location_step - Fetching URL and Opening the Url
+2019-05-07 17:40:29,415 [main] INFO Step_Defination.Options_Select_Mailing_Date_step - Fetching URL and Opening the Url
+2019-05-07 17:40:29,427 [main] INFO Step_Defination.Options_Select_Mode_step - Fetching URL and Opening the Url
+2019-05-07 17:40:29,437 [main] INFO Step_Defination.Options_Select_User_step - Fetching URL and Opening the Url
+2019-05-07 17:57:22,669 [TestNG-tests-2] INFO Step_Defination.Barcode_Scan_step - Fetching URL and Opening the Url
+2019-05-07 17:57:22,669 [TestNG-tests-1] INFO Step_Defination.Barcode_Scan_step - Fetching URL and Opening the Url
+2019-05-07 17:57:22,769 [TestNG-tests-2] INFO Step_Defination.Options_Select_Location_step - Fetching URL and Opening the Url
+2019-05-07 17:57:22,770 [TestNG-tests-1] INFO Step_Defination.Options_Select_Location_step - Fetching URL and Opening the Url
+2019-05-07 17:57:22,781 [TestNG-tests-2] INFO Step_Defination.Options_Select_Mailing_Date_step - Fetching URL and Opening the Url
+2019-05-07 17:57:22,783 [TestNG-tests-1] INFO Step_Defination.Options_Select_Mailing_Date_step - Fetching URL and Opening the Url
+2019-05-07 17:57:22,795 [TestNG-tests-2] INFO Step_Defination.Options_Select_Mode_step - Fetching URL and Opening the Url
+2019-05-07 17:57:22,795 [TestNG-tests-1] INFO Step_Defination.Options_Select_Mode_step - Fetching URL and Opening the Url
+2019-05-07 17:57:22,809 [TestNG-tests-2] INFO Step_Defination.Options_Select_User_step - Fetching URL and Opening the Url
+2019-05-07 17:57:22,809 [TestNG-tests-1] INFO Step_Defination.Options_Select_User_step - Fetching URL and Opening the Url
+2019-05-07 17:58:29,838 [TestNG-tests-2] INFO Step_Defination.Barcode_Scan_step - Fetching URL and Opening the Url
+2019-05-07 17:58:29,838 [TestNG-tests-1] INFO Step_Defination.Barcode_Scan_step - Fetching URL and Opening the Url
+2019-05-07 17:58:29,941 [TestNG-tests-1] INFO Step_Defination.Options_Select_Location_step - Fetching URL and Opening the Url
+2019-05-07 17:58:29,941 [TestNG-tests-2] INFO Step_Defination.Options_Select_Location_step - Fetching URL and Opening the Url
+2019-05-07 17:58:29,954 [TestNG-tests-2] INFO Step_Defination.Options_Select_Mailing_Date_step - Fetching URL and Opening the Url
+2019-05-07 17:58:29,954 [TestNG-tests-1] INFO Step_Defination.Options_Select_Mailing_Date_step - Fetching URL and Opening the Url
+2019-05-07 17:58:29,966 [TestNG-tests-1] INFO Step_Defination.Options_Select_Mode_step - Fetching URL and Opening the Url
+2019-05-07 17:58:29,968 [TestNG-tests-2] INFO Step_Defination.Options_Select_Mode_step - Fetching URL and Opening the Url
+2019-05-07 17:58:29,979 [TestNG-tests-1] INFO Step_Defination.Options_Select_User_step - Fetching URL and Opening the Url
+2019-05-07 17:58:29,979 [TestNG-tests-2] INFO Step_Defination.Options_Select_User_step - Fetching URL and Opening the Url
+2019-05-07 17:59:36,445 [TestNG-tests-2] INFO Step_Defination.Barcode_Scan_step - Fetching URL and Opening the Url
+2019-05-07 17:59:36,445 [TestNG-tests-1] INFO Step_Defination.Barcode_Scan_step - Fetching URL and Opening the Url
+2019-05-07 17:59:36,541 [TestNG-tests-2] INFO Step_Defination.Options_Select_Location_step - Fetching URL and Opening the Url
+2019-05-07 17:59:36,542 [TestNG-tests-1] INFO Step_Defination.Options_Select_Location_step - Fetching URL and Opening the Url
+2019-05-07 17:59:36,552 [TestNG-tests-1] INFO Step_Defination.Options_Select_Mailing_Date_step - Fetching URL and Opening the Url
+2019-05-07 17:59:36,553 [TestNG-tests-2] INFO Step_Defination.Options_Select_Mailing_Date_step - Fetching URL and Opening the Url
+2019-05-07 17:59:36,564 [TestNG-tests-1] INFO Step_Defination.Options_Select_Mode_step - Fetching URL and Opening the Url
+2019-05-07 17:59:36,566 [TestNG-tests-2] INFO Step_Defination.Options_Select_Mode_step - Fetching URL and Opening the Url
+2019-05-07 17:59:36,577 [TestNG-tests-1] INFO Step_Defination.Options_Select_User_step - Fetching URL and Opening the Url
+2019-05-07 17:59:36,579 [TestNG-tests-2] INFO Step_Defination.Options_Select_User_step - Fetching URL and Opening the Url
+2019-05-07 18:47:27,158 [TestNG-tests-2] INFO Step_Defination.Barcode_Scan_step - Fetching URL and Opening the Url
+2019-05-07 18:47:27,357 [TestNG-tests-1] INFO Step_Defination.Barcode_Scan_step - Fetching URL and Opening the Url
+2019-05-07 18:47:36,101 [TestNG-tests-2] INFO Step_Defination.Barcode_Scan_step - Submitted Barcode Successfully
+2019-05-07 18:47:36,418 [TestNG-tests-1] INFO Step_Defination.Barcode_Scan_step - Submitted Barcode Successfully
+2019-05-07 18:47:39,634 [TestNG-tests-2] INFO Step_Defination.Options_Select_Location_step - Fetching URL and Opening the Url
+2019-05-07 18:47:39,711 [TestNG-tests-1] INFO Step_Defination.Options_Select_Location_step - Fetching URL and Opening the Url
+2019-05-07 18:47:46,122 [TestNG-tests-2] INFO Step_Defination.Options_Select_Mailing_Date_step - Fetching URL and Opening the Url
+2019-05-07 18:47:46,522 [TestNG-tests-1] INFO Step_Defination.Options_Select_Mailing_Date_step - Fetching URL and Opening the Url
+2019-05-07 18:47:49,562 [TestNG-tests-1] INFO Step_Defination.Options_Select_Mailing_Date_step - Submitted Barcode Successfully
+2019-05-07 18:47:50,355 [TestNG-tests-2] INFO Step_Defination.Options_Select_Mode_step - Fetching URL and Opening the Url
+2019-05-07 18:47:52,392 [TestNG-tests-1] INFO Step_Defination.Options_Select_Mode_step - Fetching URL and Opening the Url
+2019-05-07 18:47:57,206 [TestNG-tests-2] INFO Step_Defination.Options_Select_Mode_step - Submitted Barcode Successfully
+2019-05-07 18:47:58,197 [TestNG-tests-1] INFO Step_Defination.Options_Select_User_step - Fetching URL and Opening the Url
+2019-05-07 18:48:00,284 [TestNG-tests-2] INFO Step_Defination.Options_Select_User_step - Fetching URL and Opening the Url
+2019-05-07 18:48:08,256 [TestNG-tests-1] INFO Step_Defination.Options_Select_User_step - Submitted Barcode Successfully
+2019-05-07 18:48:45,895 [TestNG-tests-1] INFO Step_Defination.Barcode_Scan_step - Fetching URL and Opening the Url
+2019-05-07 18:48:46,182 [TestNG-tests-2] INFO Step_Defination.Barcode_Scan_step - Fetching URL and Opening the Url
+2019-05-07 18:48:54,798 [TestNG-tests-1] INFO Step_Defination.Barcode_Scan_step - Submitted Barcode Successfully
+2019-05-07 18:48:55,099 [TestNG-tests-2] INFO Step_Defination.Barcode_Scan_step - Submitted Barcode Successfully
+2019-05-07 18:48:57,988 [TestNG-tests-1] INFO Step_Defination.Options_Select_Location_step - Fetching URL and Opening the Url
+2019-05-07 18:48:58,254 [TestNG-tests-2] INFO Step_Defination.Options_Select_Location_step - Fetching URL and Opening the Url
+2019-05-07 18:49:04,057 [TestNG-tests-1] INFO Step_Defination.Options_Select_Mailing_Date_step - Fetching URL and Opening the Url
+2019-05-07 18:49:04,241 [TestNG-tests-2] INFO Step_Defination.Options_Select_Mailing_Date_step - Fetching URL and Opening the Url
+2019-05-07 18:49:10,429 [TestNG-tests-2] INFO Step_Defination.Options_Select_Mode_step - Fetching URL and Opening the Url
+2019-05-07 18:49:13,766 [TestNG-tests-1] INFO Step_Defination.Options_Select_User_step - Fetching URL and Opening the Url
+2019-05-07 18:49:21,975 [TestNG-tests-2] INFO Step_Defination.Options_Select_User_step - Fetching URL and Opening the Url
+2019-05-07 21:38:33,684 [TestNG-tests-1] INFO Step_Defination.Options_Select_Location_step - Fetching URL and Opening the Url
+2019-05-07 21:38:33,716 [TestNG-tests-1] INFO Step_Defination.Options_Select_Mailing_Date_step - Fetching URL and Opening the Url
+2019-05-07 21:38:33,726 [TestNG-tests-1] INFO Step_Defination.Options_Select_Mode_step - Fetching URL and Opening the Url
+2019-05-07 21:38:33,736 [TestNG-tests-1] INFO Step_Defination.Options_Select_User_step - Fetching URL and Opening the Url
+2019-05-07 21:39:17,683 [TestNG-tests-1] INFO Step_Defination.Barcode_Scan_step - Fetching URL and Opening the Url
+2019-05-07 21:39:17,775 [TestNG-tests-1] INFO Step_Defination.Options_Select_Location_step - Fetching URL and Opening the Url
+2019-05-07 21:39:17,785 [TestNG-tests-1] INFO Step_Defination.Options_Select_Mailing_Date_step - Fetching URL and Opening the Url
+2019-05-07 21:39:17,796 [TestNG-tests-1] INFO Step_Defination.Options_Select_Mode_step - Fetching URL and Opening the Url
+2019-05-07 21:39:17,805 [TestNG-tests-1] INFO Step_Defination.Options_Select_User_step - Fetching URL and Opening the Url
+2019-05-07 21:47:10,759 [TestNG-tests-1] INFO Step_Defination.Barcode_Scan_step - Fetching URL and Opening the Url
+2019-05-07 21:47:10,859 [TestNG-tests-1] INFO Step_Defination.Options_Select_Location_step - Fetching URL and Opening the Url
+2019-05-07 21:47:10,869 [TestNG-tests-1] INFO Step_Defination.Options_Select_Mailing_Date_step - Fetching URL and Opening the Url
+2019-05-07 21:47:10,879 [TestNG-tests-1] INFO Step_Defination.Options_Select_Mode_step - Fetching URL and Opening the Url
+2019-05-07 21:47:10,890 [TestNG-tests-1] INFO Step_Defination.Options_Select_User_step - Fetching URL and Opening the Url
+2019-05-08 01:24:06,862 [main] INFO Step_Defination.Barcode_Scan_step - Fetching URL and Opening the Url
+2019-05-08 01:24:06,984 [main] INFO Step_Defination.Options_Select_Location_step - Fetching URL and Opening the Url
+2019-05-08 01:24:06,997 [main] INFO Step_Defination.Options_Select_Mailing_Date_step - Fetching URL and Opening the Url
+2019-05-08 01:24:07,009 [main] INFO Step_Defination.Options_Select_Mode_step - Fetching URL and Opening the Url
+2019-05-08 01:24:07,019 [main] INFO Step_Defination.Options_Select_User_step - Fetching URL and Opening the Url
+2019-05-08 01:24:53,092 [main] INFO Step_Defination.Barcode_Scan_step - Fetching URL and Opening the Url
+2019-05-08 01:24:53,186 [main] INFO Step_Defination.Options_Select_Location_step - Fetching URL and Opening the Url
+2019-05-08 01:24:53,196 [main] INFO Step_Defination.Options_Select_Mailing_Date_step - Fetching URL and Opening the Url
+2019-05-08 01:24:53,207 [main] INFO Step_Defination.Options_Select_Mode_step - Fetching URL and Opening the Url
+2019-05-08 01:24:53,217 [main] INFO Step_Defination.Options_Select_User_step - Fetching URL and Opening the Url
+2019-05-08 01:26:14,167 [main] INFO Step_Defination.Barcode_Scan_step - Fetching URL and Opening the Url
+2019-05-08 01:26:14,260 [main] INFO Step_Defination.Options_Select_Location_step - Fetching URL and Opening the Url
+2019-05-08 01:26:14,272 [main] INFO Step_Defination.Options_Select_Mailing_Date_step - Fetching URL and Opening the Url
+2019-05-08 01:26:14,282 [main] INFO Step_Defination.Options_Select_Mode_step - Fetching URL and Opening the Url
+2019-05-08 01:26:14,292 [main] INFO Step_Defination.Options_Select_User_step - Fetching URL and Opening the Url
+2019-05-08 01:27:50,275 [main] INFO Step_Defination.Barcode_Scan_step - Fetching URL and Opening the Url
+2019-05-08 01:27:50,367 [main] INFO Step_Defination.Options_Select_Location_step - Fetching URL and Opening the Url
+2019-05-08 01:27:50,379 [main] INFO Step_Defination.Options_Select_Mailing_Date_step - Fetching URL and Opening the Url
+2019-05-08 01:27:50,391 [main] INFO Step_Defination.Options_Select_Mode_step - Fetching URL and Opening the Url
+2019-05-08 01:27:50,404 [main] INFO Step_Defination.Options_Select_User_step - Fetching URL and Opening the Url
+2019-05-08 01:29:16,447 [main] INFO Step_Defination.Barcode_Scan_step - Fetching URL and Opening the Url
+2019-05-08 01:32:58,316 [main] INFO Step_Defination.Barcode_Scan_step - Fetching URL and Opening the Url
+2019-05-08 01:32:58,417 [main] INFO Step_Defination.Options_Select_Location_step - Fetching URL and Opening the Url
+2019-05-08 01:32:58,428 [main] INFO Step_Defination.Options_Select_Mailing_Date_step - Fetching URL and Opening the Url
+2019-05-08 01:32:58,439 [main] INFO Step_Defination.Options_Select_Mode_step - Fetching URL and Opening the Url
+2019-05-08 01:32:58,450 [main] INFO Step_Defination.Options_Select_User_step - Fetching URL and Opening the Url
+2019-05-08 01:34:29,178 [main] INFO Step_Defination.Barcode_Scan_step - Fetching URL and Opening the Url
+2019-05-08 01:34:29,272 [main] INFO Step_Defination.Options_Select_Location_step - Fetching URL and Opening the Url
+2019-05-08 01:34:29,284 [main] INFO Step_Defination.Options_Select_Mailing_Date_step - Fetching URL and Opening the Url
+2019-05-08 01:34:29,294 [main] INFO Step_Defination.Options_Select_Mode_step - Fetching URL and Opening the Url
+2019-05-08 01:34:29,304 [main] INFO Step_Defination.Options_Select_User_step - Fetching URL and Opening the Url
+2019-05-08 01:35:30,398 [main] INFO Step_Defination.Barcode_Scan_step - Fetching URL and Opening the Url
+2019-05-08 01:35:30,490 [main] INFO Step_Defination.Options_Select_Location_step - Fetching URL and Opening the Url
+2019-05-08 01:35:30,502 [main] INFO Step_Defination.Options_Select_Mailing_Date_step - Fetching URL and Opening the Url
+2019-05-08 01:35:30,513 [main] INFO Step_Defination.Options_Select_Mode_step - Fetching URL and Opening the Url
+2019-05-08 01:35:30,526 [main] INFO Step_Defination.Options_Select_User_step - Fetching URL and Opening the Url
+2019-05-08 13:33:29,997 [main] INFO Step_Defination.Barcode_Scan_step - Fetching URL and Opening the Url
+2019-05-08 13:36:00,190 [main] INFO Step_Defination.Barcode_Scan_step - Fetching URL and Opening the Url
+2019-05-08 13:37:23,613 [main] INFO Step_Defination.Barcode_Scan_step - Fetching URL and Opening the Url
+2019-05-08 13:37:40,362 [main] INFO Step_Defination.Barcode_Scan_step - Submitted Barcode Successfully
+2019-05-08 13:38:43,806 [main] INFO Step_Defination.Barcode_Scan_step - Fetching URL and Opening the Url
+2019-05-08 13:38:56,239 [main] INFO Step_Defination.Barcode_Scan_step - Submitted Barcode Successfully
+2019-05-08 13:38:58,556 [main] INFO Step_Defination.Barcode_Scan_step - Fetching URL and Opening the Url
+2019-05-08 13:44:58,188 [main] INFO Step_Defination.Barcode_Scan_step - Fetching URL and Opening the Url
+2019-05-08 13:55:40,472 [main] INFO Step_Defination.Barcode_Scan_step - Fetching URL and Opening the Url
+2019-05-08 13:55:54,284 [main] INFO Step_Defination.Barcode_Scan_step - Submitted Barcode Successfully
+2019-05-08 14:15:31,305 [main] INFO Step_Defination.Barcode_Scan_step - Fetching URL and Opening the Url
+2019-05-08 14:19:04,642 [main] INFO Step_Defination.Barcode_Scan_step - Fetching URL and Opening the Url
+2019-05-08 14:21:06,107 [main] INFO Step_Defination.Barcode_Scan_step - Submitted Barcode Successfully
+2019-05-08 14:26:11,890 [main] INFO Step_Defination.Options_Select_Location_step - Fetching URL and Opening the Url
+2019-05-08 14:26:26,531 [main] INFO Step_Defination.Options_Select_Location_step - Submitted Barcode Successfully
+2019-05-08 14:26:26,584 [main] INFO Step_Defination.Options_Select_Location_step - Fetching URL and Opening the Url
+2019-05-08 14:26:40,125 [main] INFO Step_Defination.Options_Select_Location_step - Submitted Barcode Successfully
+2019-05-08 14:32:30,630 [main] INFO Step_Defination.Options_Select_Mailing_Date_step - Fetching URL and Opening the Url
+2019-05-08 14:32:30,652 [main] INFO Step_Defination.Options_Select_Mailing_Date_step - Fetching URL and Opening the Url
+2019-05-08 14:32:38,706 [main] INFO Step_Defination.Options_Select_Mailing_Date_step - Submitted Barcode Successfully
+2019-05-08 14:33:06,240 [main] INFO Step_Defination.Options_Select_Mailing_Date_step - Fetching URL and Opening the Url
+2019-05-08 14:33:13,823 [main] INFO Step_Defination.Options_Select_Mailing_Date_step - Submitted Barcode Successfully
+2019-05-08 14:33:13,873 [main] INFO Step_Defination.Options_Select_Mailing_Date_step - Fetching URL and Opening the Url
+2019-05-08 14:33:20,575 [main] INFO Step_Defination.Options_Select_Mailing_Date_step - Submitted Barcode Successfully
+2019-05-08 14:38:22,412 [main] INFO Step_Defination.Options_Select_Mode_step - Fetching URL and Opening the Url
+2019-05-08 14:38:34,144 [main] INFO Step_Defination.Options_Select_Mode_step - Submitted Barcode Successfully
+2019-05-08 14:38:34,194 [main] INFO Step_Defination.Options_Select_Mode_step - Fetching URL and Opening the Url
+2019-05-08 14:38:45,127 [main] INFO Step_Defination.Options_Select_Mode_step - Submitted Barcode Successfully
+2019-05-08 14:43:30,288 [main] INFO Step_Defination.Options_Select_User_step - Fetching URL and Opening the Url
+2019-05-08 14:43:44,868 [main] INFO Step_Defination.Options_Select_User_step - Submitted Barcode Successfully
+2019-05-08 14:43:44,919 [main] INFO Step_Defination.Options_Select_User_step - Fetching URL and Opening the Url
+2019-05-08 14:43:58,456 [main] INFO Step_Defination.Options_Select_User_step - Submitted Barcode Successfully
+2019-05-08 14:55:51,807 [main] INFO Step_Defination.Barcode_Scan_step - Fetching URL and Opening the Url
+2019-05-08 14:56:04,983 [main] INFO Step_Defination.Barcode_Scan_step - Submitted Barcode Successfully
+2019-05-08 14:56:05,041 [main] INFO Step_Defination.Barcode_Scan_step - Fetching URL and Opening the Url
+2019-05-08 14:56:16,989 [main] INFO Step_Defination.Barcode_Scan_step - Submitted Barcode Successfully
+2019-05-08 14:56:17,846 [main] INFO Step_Defination.Options_Select_Location_step - Fetching URL and Opening the Url
+2019-05-08 14:56:31,505 [main] INFO Step_Defination.Options_Select_Location_step - Submitted Barcode Successfully
+2019-05-08 14:56:31,552 [main] INFO Step_Defination.Options_Select_Location_step - Fetching URL and Opening the Url
+2019-05-08 14:56:45,085 [main] INFO Step_Defination.Options_Select_Location_step - Submitted Barcode Successfully
+2019-05-08 14:56:45,926 [main] INFO Step_Defination.Options_Select_Mailing_Date_step - Fetching URL and Opening the Url
+2019-05-08 14:56:55,066 [main] INFO Step_Defination.Options_Select_Mailing_Date_step - Submitted Barcode Successfully
+2019-05-08 14:56:55,114 [main] INFO Step_Defination.Options_Select_Mailing_Date_step - Fetching URL and Opening the Url
+2019-05-08 14:57:02,089 [main] INFO Step_Defination.Options_Select_Mailing_Date_step - Submitted Barcode Successfully
+2019-05-08 14:57:03,029 [main] INFO Step_Defination.Options_Select_Mode_step - Fetching URL and Opening the Url
+2019-05-08 14:57:12,908 [main] INFO Step_Defination.Options_Select_Mode_step - Submitted Barcode Successfully
+2019-05-08 14:57:12,954 [main] INFO Step_Defination.Options_Select_Mode_step - Fetching URL and Opening the Url
+2019-05-08 14:57:23,860 [main] INFO Step_Defination.Options_Select_Mode_step - Submitted Barcode Successfully
+2019-05-08 14:57:24,706 [main] INFO Step_Defination.Options_Select_User_step - Fetching URL and Opening the Url
+2019-05-08 14:57:37,839 [main] INFO Step_Defination.Options_Select_User_step - Submitted Barcode Successfully
+2019-05-08 14:57:37,883 [main] INFO Step_Defination.Options_Select_User_step - Fetching URL and Opening the Url
+2019-05-08 14:57:51,556 [main] INFO Step_Defination.Options_Select_User_step - Submitted Barcode Successfully

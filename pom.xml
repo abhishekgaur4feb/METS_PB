@@ -21,11 +21,11 @@
 </dependency>
 
   
-
+<!-- Extent Report -->
 <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
-    <version>3.0.1</version>
+    <version>3.8.0</version>
 </dependency> 
 <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
 <dependency>
@@ -35,11 +35,13 @@
 </dependency>
 <!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
 <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-core -->
+<!-- https://mvnrepository.com/artifact/info.cukes/cucumber-core -->
 <dependency>
     <groupId>info.cukes</groupId>
     <artifactId>cucumber-core</artifactId>
-    <version>1.2.2</version>
+    <version>1.2.5</version>
 </dependency>
+
 <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-jvm -->
 <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-java -->
 <dependency>
@@ -103,12 +105,7 @@
     <version>4.5</version>
 </dependency>
 
-<!-- Allure Dependency -->
-<dependency>
-    <groupId>io.qameta.allure</groupId>
-    <artifactId>allure-testng</artifactId>
-    <version>2.0-BETA19</version>
-</dependency>
+
 
   </dependencies> 
      <build>
@@ -155,7 +152,7 @@
 	</plugins>
 	
 	
-	<!-- Allure Reporting -->
+	
 	
 
 

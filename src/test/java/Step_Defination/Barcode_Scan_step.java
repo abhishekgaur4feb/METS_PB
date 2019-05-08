@@ -1,9 +1,11 @@
 package Step_Defination;
 
+import java.io.FileInputStream;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Properties;
 import java.util.Set;
 
 import org.apache.log4j.BasicConfigurator;
@@ -14,7 +16,11 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.security.UserAndPassword;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -28,12 +34,52 @@ import cucumber.api.java.en.When;
 public class Barcode_Scan_step {
 	static final Logger logger = Logger.getLogger(Barcode_Scan_step.class);
 	public WebDriver driver;
+	public Properties prop;
 
-	@Given("^Open browser for MET Application$")
-	public void Open_firefox_and_start_application() throws Throwable {
+	@Given("^Open \"([^\"]*)\" for MET Application$")
+	public void Open_firefox_and_start_application(String browser) throws Throwable {
 		driver = Hooks.driver;
 		BasicConfigurator.configure();
 		logger.info("Fetching URL and Opening the Url");
+		
+		prop=new Properties();
+		FileInputStream fis=new FileInputStream("src//main//resources//Browser.properties");
+		prop.load(fis);
+		
+		//String[] url = prop.getProperty("url").split(",");
+		String url=prop.getProperty("url");
+		switch (browser)
+        {
+            case "Chrome":
+            	System.setProperty("webdriver.chrome.driver","driver//chromedriver.exe");
+    			driver = new ChromeDriver();
+    			driver.manage().deleteAllCookies();
+    			driver.get(url);
+    			driver.manage().window().maximize();
+    			
+    				
+    			//Runtime.getRuntime().exec("AutoIT_Exe//AutoIT_Login.exe");
+    			driver.get(prop.getProperty("url"));
+             break;
+            case "IE":
+            	System.setProperty("webdriver.ie.driver", "driver//IEDriverServer.exe");
+        		driver = new InternetExplorerDriver();
+        		driver.get(url);
+    			driver.manage().window().maximize();  
+            break;
+            case "Firefox":
+    			System.setProperty("webdriver.gecko.driver", "driver//geckodriver.exe");
+    			
+    			DesiredCapabilities capabilities = DesiredCapabilities.firefox();
+    			capabilities.setCapability("marionette",true);
+    			driver= new FirefoxDriver(capabilities);
+    			//driver.manage().deleteAllCookies();
+    			driver.get(url);
+    			driver.manage().window().maximize();    			
+            break;
+        }
+		
+		
 				
 		}
 	
