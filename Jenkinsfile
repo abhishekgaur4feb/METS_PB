@@ -37,7 +37,7 @@ pipeline {
             echo 'One way or another, I have finished'                       
         }
         success {
-          emailext attachmentsPattern: "**/overview-features.html", 
+          emailext attachmentsPattern: "**/cucumber-report-html", 
           body: '''${SCRIPT, template="groovy-html.template"}''',
           mimeType: 'text/html',to: "abhishekgaur054@gmail.com", 
           subject: "Success Pipeline: ${currentBuild.fullDisplayName}"
